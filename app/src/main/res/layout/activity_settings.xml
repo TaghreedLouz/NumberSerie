@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame"
+    tools:context=".Settings_Activity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settings_btn_show_all"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:background="@drawable/background"
+        android:text="@string/Showallgames"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settings_btn_cleargame"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/background"
+        android:text="@string/Clear"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay_Change_password" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settings_btn_show_last"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/background"
+        android:text="@string/Showlastgamedate"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_btn_show_all" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settings_btn_Change_password"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/background"
+        android:text="@string/Change"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_btn_show_last"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <LinearLayout
+        android:id="@+id/lay_Change_password"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_215sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_btn_Change_password">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutusrnamesettings_et_currentpass"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/EnterCurrentPassword"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextInputLayoutemail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/settings_et_currentpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutusrnamenewpass"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/EnterNewPassword"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextInputLayoutemail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/settings_et_newpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutusrnameconfirmpass"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/EnterConfirmPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextInputLayoutemail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/settings_et_confirmpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/settings_btn_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Change"
+            android:textColor="@color/grey"
+            app:backgroundTint="@color/brown" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/settings_btn_cancel"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/grey"
+            app:backgroundTint="@color/brown" />
+    </LinearLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/beige"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/grey" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

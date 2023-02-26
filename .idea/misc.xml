@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable-v24/background.xml" value="0.176" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable-v24/circle.xml" value="0.103" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1295" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable-v24/ic_user_photo.xml" value="0.235" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/cir.xml" value="0.1" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/gameframe.xml" value="0.176" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_arrow.xml" value="0.235" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.235" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_date.xml" value="0.235" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_false.xml" value="0.1705" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_launcher_background.xml" value="0.176" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_power_new_24.xml" value="0.2095" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_right.xml" value="0.2095" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_settings_24.xml" value="0.2095" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/ic_true.xml" value="0.2505" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/toast_frame.xml" value="0.2595" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/toast_frame_false.xml" value="0.258" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/drawable/toast_frame_true.xml" value="0.1205" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/font/aguafina_script.xml" value="0.12638888888888888" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout-v21/activity_game.xml" value="0.25416666666666665" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.21328125" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.284375" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_all_game.xml" value="0.1" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_all_games_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_game.xml" value="0.136" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_login2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_main2555.xml" value="0.25416666666666665" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_settings.xml" value="0.176" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/activity_splash.xml" value="0.152" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/circle.xml" value="0.13645833333333332" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/content_scrolling.xml" value="0.16944444444444445" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/custom_toast_false.xml" value="0.2" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/custom_toast_right.xml" value="0.21839080459770116" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/custom_toast_true.xml" value="0.176" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/custom_toast_wrong.xml" value="0.24675324675324675" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/list_view.xml" value="0.176" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/recycle_view.xml" value="0.264" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/layout/recycler_view.xml" value="0.176" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/menu/menu_logout_back.xml" value="0.23854166666666668" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/menu/menu_scrolling.xml" value="0.16944444444444445" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/menu/menu_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Number_Series_Game/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1705" />
+        <entry key="..\:/ttttttttttttttttttttttttttt/app/src/main/res/drawable-v24/background.xml" value="0.1" />
+        <entry key="..\:/ttttttttttttttttttttttttttt/app/src/main/res/drawable-v24/ic_user_photo.xml" value="0.1" />
+        <entry key="..\:/ttttttttttttttttttttttttttt/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/ttttttttttttttttttttttttttt/app/src/main/res/layout/activity_register.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

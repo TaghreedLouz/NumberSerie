@@ -1,0 +1,65 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/_10sdp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="@dimen/_2sdp">
+
+        <LinearLayout
+            android:layout_width="@dimen/_185sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_name_rv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/background"
+                android:paddingStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/_2sdp"
+                android:drawableLeft="@drawable/ic_user_photo"
+                android:drawablePadding="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_date_rv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/background"
+                android:paddingStart="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/_2sdp"
+                android:drawableLeft="@drawable/ic_date"
+                android:drawablePadding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_score_rv"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:textColor="@color/brown"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

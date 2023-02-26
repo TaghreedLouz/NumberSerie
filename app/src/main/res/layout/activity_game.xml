@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame"
+    android:paddingBottom="@dimen/_25sdp"
+    tools:context=".Game_Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_1sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:gravity="center_vertical"
+            android:text="@string/Score"
+            android:textColor="@color/gray_dark"
+            android:textStyle="bold|italic"
+            android:textSize="@dimen/_18ssp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_score_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:gravity="center_vertical"
+            android:text="@string/_0"
+            android:textColor="@color/brown"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <com.google.android.material.circularreveal.CircularRevealGridLayout
+        android:id="@+id/game_gl_gamenum"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay_palyer">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num1"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num2"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num3"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num4"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num5"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/_0"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num6"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num7"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num8"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/game_tv_num9"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@drawable/gameframe"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/_0"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+    </com.google.android.material.circularreveal.CircularRevealGridLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_gl_gamenum">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutanswer"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:hint="@string/Enteranumber"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/game_et_answer"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="number"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_btn_check"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:textSize="@dimen/_9ssp"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:text="@string/Check"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/game_btn_newgame"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/background"
+        android:text="@string/Newgame"
+        android:textColor="@color/design_default_color_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/game_tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_22sdp"
+        android:layout_marginEnd="@dimen/_170sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:text="@string/Welcome"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+    <LinearLayout
+        android:id="@+id/lay_palyer"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_28sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_tv_welcome">
+
+        <TextView
+            android:id="@+id/game_tv_playername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="false"
+            android:textColor="@color/brown"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:id="@+id/game_tv_playerage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/beige"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/beige"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/grey" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

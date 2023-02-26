@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سلسلة الارقام</string>
+    <string name="Score">العداد</string>
+    <string name="Welcome">مرحبا...</string>
+    <string name="Check">تحقق</string>
+    <string name="Newgame">لعبة جديدة</string>
+    <string name="FullName">الاسم كامل</string>
+    <string name="Enteranumber">ادخل رقم</string>
+    <string name="Showallgames">عرض جميع اللعب</string>
+    <string name="Clear">احذف تاريخ</string>
+    <string name="Showlastgamedate">عرض اخر تاريخ للعبة</string>
+    <string name="Change">تغير كلمة المرور</string>
+    <string name="EnterCurrentPassword">ادخل كلمة السر الحالية</string>
+    <string name="EnterNewPassword">ادخل كلمة المرور الجديدة</string>
+    <string name="_0">0</string>
+    <string name="Email">البريد الالكتروني</string>
+    <string name="UserName">اسم المستخدم</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="repassword">تاكيد كلمة المرور</string>
+    <string name="SelectBirthdate">تاريخ الميلاد</string>
+    <string name="Select">حدد</string>
+    <string name="Male">ذكر</string>
+    <string name="Female">انثى</string>
+    <string name="Save">حفظ</string>
+    <string name="Login">دخول</string>
+    <string name="Register">تسجيل الدخول</string>
+    <string name="Rememberme">تذكرني ؟</string>
+    <string name="coast_true">الاجابة صحيحة</string>
+    <string name="coast_false">الاجابة خاطئة</string>
+    <string name="Number_Series">سلسلة الارقام</string>
+    <string name="Settings">الاعدادات</string>
+    <string name="Back">رجوع</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="Hello">أهلآ وسهلآ بك</string>
+    <string name="EnterConfirmPassword">تأكيد كلمة المرور الجديدة</string>
+
+    <string-array name="Country">
+        <item>فلسطين</item>
+        <item>مصر</item>
+        <item>السودان</item>
+        <item>السعودية</item>
+        <item>تونس</item>
+        <item>الصومال</item>
+        <item>الجزائر</item>
+        <item>المغرب</item>
+        <item>العراق</item>
+        <item>سوريا</item>
+        <item>اليمن</item>
+        <item>ليبيا</item>
+        <item>الاردن</item>
+        <item>لبنان</item>
+        <item>الامارات</item>
+        <item>كويت</item>
+        <item>قطر</item>
+    </string-array>
+</resources>
